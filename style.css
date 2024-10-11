@@ -1,0 +1,60 @@
+/*Стилизация main блока*/
+
+/*Стилизация mainphoto*/
+*{
+  border: 1px solid red;
+}
+ 
+body {
+  height: 100%; /* Убедимся, что html и body занимают 100% высоты */
+  margin: 0;
+  padding: 0;
+}
+
+.barier-main-photo {
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  height: 390px; /* Высота контейнера 100% от высоты экрана */
+  text-align: center;
+}
+
+.mainphoto {
+  max-width: 100%; /* Масштабируем изображение, чтобы оно не выходило за границы */
+  height: auto; /* Сохраняем пропорции изображения */
+}
+
+/*Стилизация заголовка*/
+.title {
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  height: 50px; /* Высота контейнера 100% от высоты экрана */
+  text-align: center;
+}
+
+/*Стилизация Description*/
+  /*Текст*/
+  .description{
+    text-align: center; /*Центрируем текст внутри элемента по горизонтали.*/
+    height: 220px; 
+    width: 400px; 
+    margin: 0 auto; /*Центрируем элемент по горизонтали относительно родителя (автоматические отступы по бокам).*/
+    background-color: rgb(116, 192, 157); /* Устанавливаем цвет фона элемента с использованием RGB-значений (цвет — зелёный с оттенками).*/
+  }
+  .tx1{
+   color: rgb(58, 8, 8);
+   
+  }
+  /*Стилизация фото*/
+  .palma1{
+    height: 300px;
+    width: 200px;
+    text-align: left;
+  }
+  .palma1-item{
+    height: 400px;
+    width: 200px;
+    text-align: left;
+    margin: auto; 
+  }
